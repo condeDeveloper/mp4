@@ -1,0 +1,16 @@
+# Valores de CODECS= capturados de playlists HLS públicas de teste, em
+# 2026-09-24, com `grep -o 'CODECS="[^"]*"'`:
+#
+#   https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#   https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+#
+# São o oráculo deste projeto: a cadeia que ele monta a partir dos bytes do
+# arquivo tem de ser indistinguível da que estes serviços escrevem à mão.
+mp4a.40.2
+mp4a.40.2, avc1.4d4015
+mp4a.40.2, avc1.4d401e
+mp4a.40.2, avc1.4d401f
+mp4a.40.2,avc1.64001f
+mp4a.40.2,avc1.640028
+mp4a.40.5,avc1.42000d
+mp4a.40.5,avc1.420016
