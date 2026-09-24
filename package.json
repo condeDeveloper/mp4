@@ -1,0 +1,17 @@
+{
+  "name": "mp4",
+  "version": "1.0.0",
+  "description": "Leitor de metadados de MP4 escrito do zero: árvore de caixas, duração, resolução e cadeias de codec da RFC 6381.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "mp4": "src/cli.js" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "mp4": "node src/cli.js"
+  },
+  "keywords": ["mp4", "iso-bmff", "metadados", "codec", "rfc6381"],
+  "license": "MIT",
+  "private": false
+}
